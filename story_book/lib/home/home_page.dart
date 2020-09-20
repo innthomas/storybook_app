@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'books/book2.dart';
+import 'books/book3.dart';
 import 'books/book_model.dart';
 import 'my_drawer.dart';
 
@@ -17,6 +18,7 @@ class MyHomePage extends StatelessWidget {
       body: ListView(
         children: <Widget>[
           Card(
+            elevation: 20.0,
             color: Colors.green[200],
             shadowColor: Colors.greenAccent,
             child: ListTile(
@@ -31,6 +33,7 @@ class MyHomePage extends StatelessWidget {
             ),
           ),
           Card(
+            elevation: 20.0,
             color: Colors.green[200],
             shadowColor: Colors.greenAccent,
             child: ListTile(
@@ -45,9 +48,14 @@ class MyHomePage extends StatelessWidget {
             ),
           ),
           Card(
+            elevation: 20.0,
             color: Colors.green[200],
             shadowColor: Colors.greenAccent,
             child: ListTile(
+              onTap: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (context) => Book3()));
+              },
               leading: Icon(Icons.library_books),
               title: Text("Book3"),
               subtitle: Text("this is book3"),
@@ -55,6 +63,7 @@ class MyHomePage extends StatelessWidget {
             ),
           ),
           Card(
+            elevation: 20.0,
             color: Colors.green[200],
             shadowColor: Colors.greenAccent,
             child: ListTile(
@@ -65,6 +74,7 @@ class MyHomePage extends StatelessWidget {
             ),
           ),
           Card(
+            elevation: 20.0,
             color: Colors.green[200],
             shadowColor: Colors.greenAccent,
             child: ListTile(
@@ -75,6 +85,7 @@ class MyHomePage extends StatelessWidget {
             ),
           ),
           Card(
+            elevation: 20.0,
             color: Colors.green[200],
             shadowColor: Colors.greenAccent,
             child: ListTile(
@@ -85,6 +96,7 @@ class MyHomePage extends StatelessWidget {
             ),
           ),
           Card(
+            elevation: 20.0,
             color: Colors.green[200],
             shadowColor: Colors.greenAccent,
             child: ListTile(
@@ -95,6 +107,7 @@ class MyHomePage extends StatelessWidget {
             ),
           ),
           Card(
+            elevation: 20.0,
             color: Colors.green[200],
             shadowColor: Colors.greenAccent,
             child: ListTile(
@@ -105,6 +118,7 @@ class MyHomePage extends StatelessWidget {
             ),
           ),
           Card(
+            elevation: 20.0,
             color: Colors.green[200],
             shadowColor: Colors.greenAccent,
             child: ListTile(

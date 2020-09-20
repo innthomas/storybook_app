@@ -7,6 +7,6 @@
     <item>
         <bitmap
             android:gravity="center"
-            android:src="@drawable/book6" />
+            android:src="@drawable/book4" />
     </item> 
 </layer-list>

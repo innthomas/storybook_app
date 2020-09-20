@@ -15,6 +15,30 @@ class MyDrawer extends StatelessWidget {
               backgroundColor: Colors.yellow,
               radius: 50.0,
               child: Image.asset("images/book.png"),
+            ),
+            SizedBox(
+              height: 30.0,
+            ),
+            CircleAvatar(
+              backgroundColor: Colors.yellow,
+              radius: 50.0,
+              child: Image.asset("images/book.png"),
+            ),
+            SizedBox(
+              height: 30.0,
+            ),
+            CircleAvatar(
+              backgroundColor: Colors.yellow,
+              radius: 50.0,
+              child: Image.asset("images/book.png"),
+            ),
+            SizedBox(
+              height: 30.0,
+            ),
+            CircleAvatar(
+              backgroundColor: Colors.yellow,
+              radius: 50.0,
+              child: Image.asset("images/book.png"),
             )
           ],
         ),
